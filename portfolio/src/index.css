@@ -5,10 +5,20 @@
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Fira code', monospace;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --primary: #16213E;
+  --seconday: #0F3460;
+  --terceary: #533483;
+  --red: #E94560;
+  --soft-white: #f1f1f1;
+  --white: # #fefefe;
+  --black: #111;
+  --gray: #222222;
 }
+
