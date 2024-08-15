@@ -24,3 +24,7 @@
 .header a:hover{
     color: var(--red);
 }
+
+.header span:hover{
+    color: var(--red);
+}
