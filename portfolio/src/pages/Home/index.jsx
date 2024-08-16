@@ -23,7 +23,7 @@ function Home() {
           </div>
           <figure>
             <img
-              className="img-home"
+              className={styles.img_home}
               src="/developer-red.svg"
               alt="Imagem de Home"
             />
