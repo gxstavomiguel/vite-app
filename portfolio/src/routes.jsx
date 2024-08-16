@@ -4,13 +4,14 @@ import Projetos from "./pages/Projetos";
 import Contatos from "./pages/Contatos";
 import Sobre from "./pages/Sobre";
 import Page404 from "./pages/Page404";
+import PaginaBase from './pages/PaginaBase'
 
 function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<PaginaBase />}>
-          <Route path="/" element={<Home />}></Route>
+          <Route index element={<Home />}></Route>
           <Route path="/sobre" element={<Sobre />}></Route>
           <Route path="/projetos" element={<Projetos />}></Route>
           <Route path="/contatos" element={<Contatos />}></Route>
