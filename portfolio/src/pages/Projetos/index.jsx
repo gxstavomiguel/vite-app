@@ -21,7 +21,14 @@ function Projetos() {
       <h2>Sobre</h2>
       {repositories.legnth > 0 ? (
         <section className={styles.lista}>
-          <Card />
+          {repositories.map((repo) => (
+            <Card
+              key={repo.id}
+              name={repo.name}
+              descreption={repo.descreption}
+              html_url={repo.html_url}
+            />
+          ))}
         </section>
       ) : (
         <p>Carregando repositórios...</p>
