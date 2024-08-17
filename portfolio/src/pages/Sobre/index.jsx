@@ -12,7 +12,7 @@ function Sobre() {
     <section className={styles.sobre}>
       <div className={styles.bio}>
         <img src={avatar} alt="imagem de perfil" className={styles.avatar} />
-        <div>
+        <div className={styles.textos}>
           <h2>Sobre</h2>
 
           <p>
@@ -31,12 +31,14 @@ function Sobre() {
       </div>
       <div className={styles.tech}>
         <h3>Techs</h3>
-        <img src={html} alt="Ícone do html" />
-        <img src={css} alt="Ícone do css" />
-        <img src={js} alt="Ícone do js" />
-        <img src={react} alt="Ícone do react" />
-        <img src={node} alt="Ícone do node" />
-        <img src={sql} alt="Ícone do sql" />
+        <div className={styles.icones}>
+          <img src={html} alt="Ícone do html" />
+          <img src={css} alt="Ícone do css" />
+          <img src={js} alt="Ícone do js" />
+          <img src={react} alt="Ícone do react" />
+          <img src={node} alt="Ícone do node" />
+          <img src={sql} alt="Ícone do sql" />
+        </div>
       </div>
     </section>
   );
