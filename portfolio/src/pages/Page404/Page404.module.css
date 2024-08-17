@@ -1,5 +1,16 @@
+.page404 {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .titulos2 {
     padding-top: 2rem;
+    text-align: center;
 }
 
 .textos {
@@ -16,4 +27,13 @@
 
 .texto_vermelho {
     font-size: 1.5rem;
+}
+
+@media (max-width: 758px) {
+    .texto_grande {
+        font-size: 150px;
+    }
+    .texto_vermelho {
+        font-size: 1rem;
+    }
 }
