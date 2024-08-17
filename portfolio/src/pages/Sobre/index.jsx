@@ -16,8 +16,8 @@ function Sobre() {
           <h2>Sobre</h2>
 
           <p>
-            Sou Gustavo Miguel <br />
-            Dev Full Stack
+            Sou <span> Gustavo Miguel</span> <br />
+            <strong>Dev Full Stack</strong>
           </p>
           <p>Trabalho com desenvolvimento Web desde 2019.</p>
 
