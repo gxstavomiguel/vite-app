@@ -25,8 +25,22 @@
 }
 
 .techs {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.icones img {
+    height: 50px;
+    color: black
 }
