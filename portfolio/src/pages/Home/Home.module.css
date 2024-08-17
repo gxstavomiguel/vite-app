@@ -3,7 +3,7 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -42,4 +42,10 @@
 
 .btn_red:hover {
     color: var(--primary);
+}
+
+@media (max-width: 768px){
+    .home {
+        flex-direction: column;
+    }
 }
