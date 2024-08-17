@@ -19,13 +19,13 @@ function Projetos() {
   return (
     <section className={styles.projeto}>
       <h2>Sobre</h2>
-      {repositories.legnth > 0 ? (
+      {repositories.length > 0 ? (
         <section className={styles.lista}>
           {repositories.map((repo) => (
             <Card
               key={repo.id}
               name={repo.name}
-              descreption={repo.descreption}
+              description={repo.description}
               html_url={repo.html_url}
             />
           ))}
