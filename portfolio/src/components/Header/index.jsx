@@ -13,7 +13,7 @@ function Header() {
       <Link to="/">
         <span>GustavoMiguel.dev</span>
       </Link>
-      <nav className={styles.menuSandwich}>
+      <nav className={`${styles.menuSandwich} ${showMenu ? styles.show : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
         <Link to="/projetos">Projetos</Link>
