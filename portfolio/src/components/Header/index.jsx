@@ -17,6 +17,11 @@ function Header(){
                 <Link to="/contatos">Contatos</Link>
 
             </nav>
+            <div className={styles.menuButton}>
+                <span className={styles.linha}></span>
+                <span className={styles.linha}></span>
+                <span className={styles.linha}></span>
+            </div>
         </header>
     );
 }
