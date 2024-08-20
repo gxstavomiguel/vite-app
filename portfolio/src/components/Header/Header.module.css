@@ -57,6 +57,13 @@
 
     .show { 
         display:flex;
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: var(--primary);
+        flex-direction: column;
     }
     
 }
