@@ -50,5 +50,9 @@
         height: 2px;
         background-color: white;
     }
+
+    .menuSandwich {
+        display: none;
+    }
     
 }
