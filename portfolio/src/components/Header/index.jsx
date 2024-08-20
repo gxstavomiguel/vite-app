@@ -14,6 +14,7 @@ function Header() {
         <span>GustavoMiguel.dev</span>
       </Link>
       <nav className={`${styles.menuSandwich} ${showMenu ? styles.show : ""}`}>
+        onClick={toggleMenu}
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
         <Link to="/projetos">Projetos</Link>
